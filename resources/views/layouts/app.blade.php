@@ -26,6 +26,8 @@
         </header>
         
         <div class="container">
+            @include('commons.error-message')
+            
             @yield('content')
         </div>
         
